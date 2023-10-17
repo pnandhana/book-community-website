@@ -1,0 +1,158 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  background: rgb(228, 218, 218);
+  color: #fff;
+}
+.navbar-nav .active a {
+    border-bottom: 2px solid #fff; /* Customize the color and thickness as needed */
+  }
+  .navbar-nav .nav-item.active .nav-link {
+    color: white;
+  }
+  .navbar-nav .nav-item:hover .nav-link {
+    border-bottom: 2px solid #fff; /* Customize the color and thickness as needed */
+    color: white; /* Customize the text color on hover */
+  }
+.web-banner-section{
+  font-family:'Courier New', Courier, monospace;
+}
+.text-overlay {
+  position: absolute;
+  top: 40%; /* Adjust the position as needed */
+  left: 50%; /* Adjust the position as needed */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity */
+  color: rgb(255, 255, 255); /* Text color */
+  padding: 20px; /* Padding for the text */
+  text-align: center;
+}
+
+/* Style for the text in the overlay */
+.text-overlay h1 {
+  font-size: 36px; /* Adjust the font size */
+}
+
+.text-overlay p {
+  font-size: 18px; /* Adjust the font size */
+}
+.pop-author{
+  font-family:'Courier New', Courier, monospace;
+  margin-top: 10px;
+}
+.pop-auth-h1{
+  margin-left: 110px;
+  font-family:'Courier New', Courier, monospace;
+  color: #fff;
+}
+.recent{
+  margin-left: 110px;
+  /* font-family:'Courier New', Courier, monospace; */
+  color: #fff;
+}
+.home2-p{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 110px;
+  font-family:'Courier New', Courier, monospace;
+  color: #fff;
+}
+.home2-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.home2-btn:hover {
+  background-color: green;
+}
+.card-img-authors{
+  width: 170px;
+  height: 199px;
+  border-radius: 10px;
+  /* max-width: 50%;
+  max-height: 50%;
+ */}
+.rating-star{
+  width:15px;
+  height: 15px;
+}
+.star{
+  color: #fff;
+  margin:0;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 100;
+}
+.enlarge-on-hover {
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+.book-description{
+  color: #fff;
+  font-family:'Courier New', Courier, monospace;
+}
+footer{
+  font-size: x-small;
+  background-color: rgb(4, 1, 15);
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.form-control{
+  background: transparent;
+  width: 150px;
+}
+.search{
+  /* margin-top: 10px; */
+  width:20px;
+  height: 20px;
+  cursor: pointer;
+}
+.input-group{
+  display: flex;
+  justify-content: space-between;
+}
+search-input{
+  margin-left: 500px;
+}
+genre-card-image{
+  color:rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  max-height: 50%;
+}
+
+/* profile */
+.pic{
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.prof-section1 {
+  display: flex;
+  align-items: center;
+}
+
+.pic {
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.home2-btn{
+  padding: 2px;
+}
+
+.h3-15{
+  color: rgb(99, 98, 98);
+}

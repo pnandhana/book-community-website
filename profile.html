@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Silver Fish</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-black.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Include the latest FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css">
+</head>
+<body class="bg-black">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container">
+      <!-- Logo (you can replace "Your Logo" with your actual logo) -->
+      <a class="navbar-brand" href="#">
+        <img src="img/open-book (2).png" alt="Your Logo" width="30" height="30" class="d-inline-block align-text-authors">
+        SILVER FISH
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <!-- <div class="input-group rounded ml-auto" style="width: 200px; height: 25px">
+        <input type="search" class="form-control rounded" style="background-color: transparent; width: 100px;  color: rgba(255, 255, 255, 0.5);" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        
+            <img  class="search" src="img/search.png" alt="">
+        </span>
+    </div> -->
+
+      <!-- Navigation Items on the right -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        
+        <ul class="navbar-nav ms-auto">
+          <!-- <li><i class="bx bx-moon change-theme" id="theme-button"></i></li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">
+
+              <img  class="search" src="img/search.png" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search.html">Community</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="search.html">Profile</a>
+          </li>
+          
+          <!-- Add the Profile Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="profile-pic d-inline-block align-text-top rounded-circle" width="30" height="30" src="img/profile.jpg" alt="Profile Icon">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+        </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="prof-section1">
+    <div class="pic">
+        <img class="prof-section1-pic profile-pic align-text-top rounded-circle" width="150" height="150" src="img/profile.jpg" alt="Profile Icon">
+    </div>
+    <div class="info">
+        <div class="name text-white">
+            <h3>Nandhana P<span>
+                <button type="button" class="home2-btn btn btn-light">Edit <span><img src="img/pencil.png" style="width: 15px; height: 15px;" alt=""></span></button>
+                </span>    
+            </h3>
+            <p>Book loves me more than I love books</p>
+        </div>
+        <div class="prof-status text-white">
+            <h3 class="h3-15">15</h3><p>books</p>
+        </div>
+        <!-- <div class="edit-button">
+        </div> -->
+    </div>
+</section>
+
+
+<!-- list -->
+<section class="pop-books mt-3">
+    <h3 class="recent">Recent Activity</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 mb-4 mr-2">
+          <div class="card bg-black text-white">
+              <img src="img/genres/horror.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1">
+              <div class="card-body" style="display:inline-block;">
+                <p class="card-title" style="cursor: pointer;"><a href="#href" style="text-decoration: none; color:white;">Dracula</a></p>
+                <div class="star"></div>
+                <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 9.0 <br> 120k reviews</span>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-2 mb-4 mr-2">
+        <div class="card bg-black text-white">
+            <img src="img/genres/horror/h1.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1" style="height:86.1">
+            <div class="card-body" style="display:inline-block;">
+              <p class="card-title">Lanny</p>
+              <div class="star"></div>
+              <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 9.8 <br> 200k reviews</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 mb-4 mr-2">
+      <div class="card bg-black text-white">
+          <img src="img/genres/horror/h2.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1">
+          <div class="card-body" style="display:inline-block;">
+            <p class="card-title">The shadows</p>
+            <div class="star"></div>
+            <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 8.0 <br>100k reviews</span>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-2 mb-4 mr-2">
+    <div class="card bg-black text-white">
+        <img src="img//genres/horror/h3.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1">
+        <div class="card-body" style="display:inline-block;">
+          <p class="card-title">God of small things</p>
+          <div class="star"></div>
+          <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 9.0 <br> 300k reviews</span> 
+        </div>
+    </div>
+  </div>
+  <div class="col-md-2 mb-4 mr-2">
+    <div class="card bg-black text-white">
+        <img src="img/genres/horror/h4.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1">
+        <div class="card-body" style="display:inline-block;">
+          <p class="card-title">Poison of love
+          </p>
+          <div class="star"></div>
+          <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 9.0 <br> 290k reviews</span>
+        </div>
+    </div>
+  </div>
+  <div class="col-md-2 mb-4 mr-2">
+    <div class="card bg-black text-white">
+        <img src="img/genres/horror/h5.jpg" class="card-img-authors enlarge-on-hover" alt="Book 1">
+        <div class="card-body" style="display:inline-block;">
+          <p class="card-title">Dr Jekyll</p>
+          <div class="star"></div>
+          <img class="rating-star" src="img/star (2).png" alt="rating-star" ><span> 9.0 <br> 380k reviews</span>
+        </div>
+    </div>
+  </div>
+       
+      </div>
+  
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4h
